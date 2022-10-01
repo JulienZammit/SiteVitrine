@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');		
+.navbar > .container-fluid{
+height: 75px;
+}
+
+.navbar-nav li{
+margin-left: 20px;
+margin-right: 20px;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 14px;
+transition: all 0.3s ease-in-out; /* a modifier */
+letter-spacing: normal;
+text-shadow: none;
+font-style: normal;
+font-family: Nunito Sans, sans-serif;
+color: #1b2336;
+}
+
+.navbar-nav .nav-link{
+color: #1b2336 !important;
+}
+
+.navbar-nav .active{
+color: #4B83FC !important;
+}
+
+.navbar-nav{
+align-items: center;
+}
+
+.navbar-nav .btn{
+margin-left: 50px;
+margin-right: 40px;
+padding: 15px 30px 15px 30px;
+text-align: center;
+text-transform: uppercase;
+font-weight: 600;
+font-size: 14px;
+letter-spacing: normal;
+text-shadow: none;
+font-style: normal;
+font-family: Nunito Sans, sans-serif;
+color: #ffffff;
+}
+
+.btn-header{
+background-color: #4B83FC;
+border-color: #4B83FC;
+box-shadow: 3px 4px 7px 0px rgb(0 0 0 / 45%);
+}
+
+.navbar-brand{
+margin-left: 25px;
+}
+
+.navbar-toggler{
+margin-left: auto;
+}
+
+.main-content{
+font-family: 'Work Sans', sans-serif;
+width: 100%;
+color: #ffffff;
+box-shadow: 0px 15px 10px -15px #111; 
+}
+
+.black-filter{
+background-color: rgba(0, 0, 0, 0.5);
+height: 100%;
+}
+
+.main-content h1{
+font-weight: 600;
+font-size: 38px;
+}
+
+.main-content p{
+font-weight: 600;
+font-size: 24px;
+}
+
+.main-content .row{
+transform: translate3d(5%, -50%, 0);
+width: 85%;
+}
+
+.main-content .col-9{
+animation: bounce-in-top 1.4s both;
+animation-delay: 200ms; /* how long to delay the animation from starting */
+
+}
+
+.sub-content-logo{
+animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation-delay: 200ms;
+}
+
+.img-main{
+background-image: url("https://www.ville-firminy.fr/wp-content/uploads/2019/08/entete_EspacesNatation.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 360px;
+}
+
+.aboutme{
+font-family: 'Work Sans', sans-serif;
+justify-content: center;
+margin-top: 3%;
+}
+
+.btn-others{
+background-color: #4B83FC;
+border-color: #4B83FC;
+color: white;
+font-family: Nunito Sans, sans-serif;
+}
+.btn-others:focus{
+background-color: #4B83FC;
+border-color: #4B83FC;
+color: white;
+font-family: Nunito Sans, sans-serif;
+}
+
+.btn-others:hover{
+background-color: #255fdd;
+border-color: #4B83FC;
+color: white;
+font-family: Nunito Sans, sans-serif;
+}
+
+.right form{
+margin-right: 15px;
+}
+
+.aboutme .row{
+justify-content: center;
+}
+
+.aboutme h1{
+font-size: 34px;
+font-weight: bold;
+/*animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;*/
+animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation-delay: 200ms;
+color: #4F4F4F;
+}
+
+.aboutme p{
+margin-top: 5px;
+animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation-delay: 200ms;
+margin-left: 25px;
+color: #707070;
+font-size: 18px;
+font-weight: normal;
+}
+
+.slide-right{
+animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation-delay: 200ms;
+}
+
+.slide-left{
+animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation-delay: 200ms;
+}
+
+.aboutme .hr{
+border-bottom: #C6C6C6 1px solid;
+margin-top: 3%;
+}
+
+.myoffers{
+margin-top: 5%;
+}
+
+.myoffers p{
+width: 72%;
+color: #707070;
+font-weight: normal;
+font-size: 18px;
+}
+
+.myoffers h2{
+color: #4F4F4F;
+font-weight: bold;
+font-size: 28px;
+}
+
+.triathlon .col-5{
+padding: 0 !important;
+}
+
+.myoffers .natation{
+padding-left: 12%;
+display: contents;
+}
+
+.myoffers img{
+border-radius: 10px;
+}
+
+.myoffers .row{
+justify-content: center;
+margin: auto;
+margin-bottom: 5%;
+}
+
+.myoffers .triathlon{
+max-width: 37.67%;
+padding: 0;
+margin: 0;
+}
+
+.myoffers .triathlon{
+display: contents;
+}
+
+.myoffers .natation{
+display: contents;
+}
+
+@media (max-width: 991.5px){
+.right{
+	justify-content: center;
+	text-align: center;
+	--bs-bg-opacity: 1;
+	display: block;
+		width: 100%;
+}
+.navbar-nav .btn {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+.navbar > .container-fluid{
+	height: 100%;
+}
+}
+
+@media (max-width: 780px){
+.sub-content-logo img{
+	height: 70px !important;
+}
+}
+
+@media (max-width: 767.5px){
+.triathlon-text{
+	order: -1 !important;
+}
+.myoffers img{
+	height: auto;
+	width: 340px !important;
+}
+.myoffers p {
+	width: 100%;
+}
+}
+
+@media (max-width: 560px) {
+.myoffers p {
+	width: 150%;
+}
+}
+
+@media (max-width: 991.5px){
+.right{
+	justify-content: center;
+	text-align: center;
+	--bs-bg-opacity: 1;
+	display: block;
+		width: 100%;
+}
+.navbar-nav .btn {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 5px;
+}
+.navbar > .container-fluid{
+	height: 100%;
+}
+}
+
+.sub-content-logo img{
+height: 80px;
+width: auto
+}
+.myoffers img{
+height: auto;
+width: 380px;
+}
+
+.aboutme .col-2{
+display: contents;
+}
+.aboutme p{
+margin-left: 0 !important;
+}
+
+
+@media (max-width: 1430px){
+.aboutme p{
+	margin-left: 15%;
+}
+.myoffers img{
+	height: auto;
+	width: 380px;
+}
+}
+
+@media (min-width: 1205px){
+.triathlon-text{
+	padding-left: 12%;
+}
+}
+
+/* blog css */
+
+.blogcontent .row{
+justify-content: center;
+}
+
+.blogcontent{
+margin-top: 3%;
+font-family: 'Roboto', sans-serif;
+}
+
+.blogcontent h1{
+color: #4B83FC;
+text-decoration: none;
+}
+
+.blogcontent .continue{
+color: #4B83FC;
+}
+
+.blogcontent a{
+text-decoration: none;
+}
+
+.blogcontent .col-8{
+margin-bottom: 40px;
+}
+
+.blogcontent p{
+font-family: 'Open Sans', sans-serif;
+color: #707070;
+}
+
+.blogcontent span{
+color: #4F4F4F !important;
+}
+
+.cs-footer{
+background-color: #4B83FC;
+}
+
+.cs-footer a{
+color: white !important;
+}
+
+body{
+overflow-x: hidden;
+}
+
+.boxImage
+{
+padding-top : 50px;
+height: 500px;
+width: 500px;
+
+
+}
+
+.fgfg
+{
+max-width: 100%;
+max-height: 100%;
+}
+
+.encadreMenu
+{
+margin-left:100px;
+margin-right:100px;
+}
